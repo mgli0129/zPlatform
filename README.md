@@ -1,4 +1,4 @@
-# adopt-pets
+# z-Platform
 
 ## Project setup
 ```
