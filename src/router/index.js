@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 const Dashboard = () => import('../views/Dashboard.vue')
 const Projects = () => import('../views/Projects.vue')
 const Team = () => import('../views/Team.vue')
+const Color = () => import('../views/Color.vue')
 
 const routes = [
   {
@@ -22,6 +23,11 @@ const routes = [
     path: '/team',
     name: 'team',
     component: Team
+  },
+  {
+    path: '/color',
+    name: 'color',
+    component: Color
   }
 ]
 

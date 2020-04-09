@@ -7,16 +7,27 @@ Vue.use(Vuetify)
 
 export default new Vuetify({
     theme: {
+        dark: false,
         themes: {
             light: {
-                primary: colors.pink,
-                secondary: '#1F7087',
-                accent: colors.yellow,
-                error: colors.red.accent3,
-                info: '#2196F3',
-                success: '#4CAF50',
-                warning: '#FFC107'
+                primary: '#FF6817',
+                secondary: '#1F8DFF',
+                accent: '#EBCB5E',
+                error: '#FF1000',
+                warning: '#E6FFC7',
+                info: '#E6FFC7',
+                success: '#3EEB9C'
             },
+            dark: {
+                primary: '#FFC705',
+                secondary: '#8DB3A5',
+                accent: '#00FFA7',
+                error: '#BC1201',
+                warning: '#D7FFB0',
+                info: '#B3A269',
+                success: '#ff5722'
+            }
+
 
         },
     },
