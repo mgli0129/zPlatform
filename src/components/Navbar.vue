@@ -56,7 +56,7 @@ export default {
       links: [
         { icon: "dashboard", text: "Dashboard", route: "/" },
         { icon: "folder", text: "My Project", route: "/projects" },
-        { icon: "person", text: "Team", route: "/team" },
+        { icon: "person", text: "焦虑事件", route: "/team" },
         { icon: "color_lens", text: "Color", route: "/color" },
         {
           icon: "border_inner",

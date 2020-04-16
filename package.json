@@ -1,5 +1,5 @@
 {
-  "name": "zPlatform",
+  "name": "zplatform",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "cnpm": "^6.1.1",
     "core-js": "^3.6.4",
     "element-ui": "^2.13.0",
     "register-service-worker": "^1.7.1",
@@ -47,5 +48,20 @@
   ],
   "gitHooks": {
     "pre-commit": "lint-staged"
-  }
+  },
+  "description": "* Excellent front-end UI by using Vue and Vuetify.",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgli0129/zPlatform.git"
+  },
+  "author": "MG Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgli0129/zPlatform/issues"
+  },
+  "homepage": "https://github.com/mgli0129/zPlatform#readme"
 }
